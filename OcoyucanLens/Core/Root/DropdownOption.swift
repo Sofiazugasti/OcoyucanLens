@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DropdownOption: View{
-    @State var chosenFilter = "Filtros"
+    @State private var chosenFilter = "Opciones"
     var body: some View{
         VStack{
             Menu {
@@ -24,10 +24,10 @@ struct DropdownOption: View{
                     }
                 })
                 Button(action: {
-                    chosenFilter = "Biblioteca de fauna"
+                    chosenFilter = "Toda la fauna"
                 }, label: {
                     HStack{
-                        Text("Biblioteca de fauna")
+                        Text("Toda de fauna")
                         if chosenFilter == "Biblioteca de fauna" {
                             Image(systemName: "checkmark")
                                 .foregroundColor(Colors.mainGreen)
@@ -37,15 +37,16 @@ struct DropdownOption: View{
             } label: {
                 Label {
                     Text(chosenFilter)
-                        .font(TextStyles.body)
-                        .foregroundColor(Colors.lightGreen)
+                        .font(TextStyles.small_body)
+                        .foregroundColor(Colors.mainGreen)
                 } icon: {
-                    Image(systemName: "slider.horizontal.3")
-                        .foregroundColor(Colors.lightGreen)
+                    Image(systemName: "chevron.down")
+                        .foregroundColor(Colors.mainGreen)
+                        .imageScale(.small)
                 }
                 .padding(.horizontal, 50)
-                .frame(width: 300, height: 35)
-                .roundedBorder(borderColor: Colors.lightGreen, backgroundColor: Colors.mainGreen)
+                .frame(width: 250, height: 22)
+                .roundedBorder()
             }
 
         }

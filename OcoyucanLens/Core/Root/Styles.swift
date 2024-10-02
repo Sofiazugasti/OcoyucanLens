@@ -11,6 +11,8 @@ struct TextStyles {
     static let logo_title = Font.custom("Verbatim-ExtendedThin", size: 30)
     static let body = Font.custom("Avenir", size: 18)
     static let title = Font.custom("Avenir-Black", size: 25)
+    static let sub_title = Font.custom("Avenir-Black", size: 20)
+    static let small_body = Font.custom("Avenir", size: 12)
 
 }
 

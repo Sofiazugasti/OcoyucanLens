@@ -11,28 +11,24 @@ struct SearchBar: View {
         VStack{
             HStack {
                 Image(systemName: "magnifyingglass")
+                    .foregroundColor(Colors.lightGreen)
                 VStack(alignment: .leading, spacing:2) {
-                    Text("Buscar")
+                    Text("Alguna fauna en especial?")
                         .font(TextStyles.body)
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Colors.mainGreen)
+                        .fontWeight(.bold)
+                        .foregroundColor(Colors.lightGreen)
                 }
             }
-            HStack {
-                Image(systemName: "magnifyingglass")
-                VStack(alignment: .leading, spacing:2) {
-                    Text("")
-                        .font(TextStyles.body)
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Colors.mainGreen)
-                }
-            }
+            .frame(width: 370, height: 60)
+            .roundedBorder(borderColor: Colors.lightGreen, backgroundColor: Colors.mainGreen)
+            
         }
     }
 }
 
+
 struct SearchBar_Previews: PreviewProvider {
     static var previews: some View {
-        VerDetalles()
+        SearchBar()
     }
 }

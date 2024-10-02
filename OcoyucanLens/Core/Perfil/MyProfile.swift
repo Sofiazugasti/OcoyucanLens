@@ -38,6 +38,8 @@ struct MyProfile: View {
                     }
                     .frame(width: 350, height: 85)
                     .roundedBorder()
+         
+                    
                     
                     Spacer()
                     
@@ -56,7 +58,7 @@ struct MyProfile: View {
                     HStack {
                         SettingsRowView(imageName: "trophy.fill", title: "25", description: "Flora recolectada")
                     }
-                    NavigationLink(destination: Inicio()) {
+                    NavigationLink(destination: SignUp()) {
                         Text("Cerrar sesión")
                             .font(TextStyles.body)
                             .frame(width: 240, height: 45)
