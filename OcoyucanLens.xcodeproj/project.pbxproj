@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE06A50E2CA36A4300E0F165 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06A50D2CA36A4300E0F165 /* Styles.swift */; };
+		CE06A5132CA48BAD00E0F165 /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06A5122CA48BAD00E0F165 /* Inicio.swift */; };
+		CE06A5162CA50BB700E0F165 /* inputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06A5152CA50BB700E0F165 /* inputView.swift */; };
+		CE06A5182CA625BF00E0F165 /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06A5172CA625BF00E0F165 /* MyProfile.swift */; };
+		CE2A04FF2C88F34D00101866 /* Verbatim-ExtendedThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2A04FE2C88F34D00101866 /* Verbatim-ExtendedThin.ttf */; };
+		CE2A05022C88FFAB00101866 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A05012C88FFAB00101866 /* SignUp.swift */; };
+		CE5BD2BF2CAC4C430008EE89 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BD2BE2CAC4C430008EE89 /* SettingsRowView.swift */; };
+		CE5BD2C12CACC7420008EE89 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BD2C02CACC7420008EE89 /* User.swift */; };
+		CE5BD2C32CACCEA20008EE89 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BD2C22CACCEA20008EE89 /* SearchBar.swift */; };
+		CE5BD2C52CACFF5F0008EE89 /* DropdownOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BD2C42CACFF5F0008EE89 /* DropdownOption.swift */; };
 		CEB4BC942C88A8840007CB9B /* OcoyucanLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4BC932C88A8840007CB9B /* OcoyucanLensApp.swift */; };
 		CEB4BC962C88A8840007CB9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4BC952C88A8840007CB9B /* ContentView.swift */; };
 		CEB4BC982C88A8860007CB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB4BC972C88A8860007CB9B /* Assets.xcassets */; };
 		CEB4BC9B2C88A8860007CB9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB4BC9A2C88A8860007CB9B /* Preview Assets.xcassets */; };
+		CEB4BCB02C88AC4E0007CB9B /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4BCAF2C88AC4E0007CB9B /* Welcome.swift */; };
+		CEC2F75E2C89537B007BB040 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F75D2C89537B007BB040 /* Register.swift */; };
+		CEC2F7602C8A59CA007BB040 /* PlantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F75F2C8A59CA007BB040 /* PlantsList.swift */; };
+		CEC2F7622C8A5CBF007BB040 /* Listas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F7612C8A5CBF007BB040 /* Listas.swift */; };
+		CEC2F7682C8A7434007BB040 /* Breulgroteskb-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEC2F7672C8A7434007BB040 /* Breulgroteskb-thin.otf */; };
+		CEC2F76A2C8A7D98007BB040 /* VerDetalles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2F7692C8A7D98007BB040 /* VerDetalles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE06A50D2CA36A4300E0F165 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		CE06A5122CA48BAD00E0F165 /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		CE06A5152CA50BB700E0F165 /* inputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputView.swift; sourceTree = "<group>"; };
+		CE06A5172CA625BF00E0F165 /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		CE2A04FE2C88F34D00101866 /* Verbatim-ExtendedThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Verbatim-ExtendedThin.ttf"; sourceTree = "<group>"; };
+		CE2A05002C88F43B00101866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE2A05012C88FFAB00101866 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CE5BD2BE2CAC4C430008EE89 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		CE5BD2C02CACC7420008EE89 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE5BD2C22CACCEA20008EE89 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		CE5BD2C42CACFF5F0008EE89 /* DropdownOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownOption.swift; sourceTree = "<group>"; };
 		CEB4BC902C88A8840007CB9B /* OcoyucanLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcoyucanLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB4BC932C88A8840007CB9B /* OcoyucanLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcoyucanLensApp.swift; sourceTree = "<group>"; };
 		CEB4BC952C88A8840007CB9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEB4BC972C88A8860007CB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB4BC9A2C88A8860007CB9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEB4BCAF2C88AC4E0007CB9B /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		CEC2F75D2C89537B007BB040 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		CEC2F75F2C8A59CA007BB040 /* PlantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsList.swift; sourceTree = "<group>"; };
+		CEC2F7612C8A5CBF007BB040 /* Listas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listas.swift; sourceTree = "<group>"; };
+		CEC2F7672C8A7434007BB040 /* Breulgroteskb-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breulgroteskb-thin.otf"; sourceTree = "<group>"; };
+		CEC2F7692C8A7D98007BB040 /* VerDetalles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerDetalles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE06A5142CA50A2300E0F165 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4BC952C88A8840007CB9B /* ContentView.swift */,
+				CE06A50D2CA36A4300E0F165 /* Styles.swift */,
+				CE5BD2C42CACFF5F0008EE89 /* DropdownOption.swift */,
+				CE06A5152CA50BB700E0F165 /* inputView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CE2A04C42C88E12B00101866 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A04FE2C88F34D00101866 /* Verbatim-ExtendedThin.ttf */,
+				CEC2F7672C8A7434007BB040 /* Breulgroteskb-thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CEB4BC872C88A8840007CB9B = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +104,15 @@
 		CEB4BC922C88A8840007CB9B /* OcoyucanLens */ = {
 			isa = PBXGroup;
 			children = (
-				CEB4BC932C88A8840007CB9B /* OcoyucanLensApp.swift */,
-				CEB4BC952C88A8840007CB9B /* ContentView.swift */,
+				CE2A05002C88F43B00101866 /* Info.plist */,
+				CEB4BCA22C88A8A90007CB9B /* App */,
+				CEB4BCA12C88A89C0007CB9B /* Core */,
+				CEB4BCA32C88A8CD0007CB9B /* Extensions */,
+				CEB4BCA52C88A8E10007CB9B /* Models */,
+				CE5BD2C02CACC7420008EE89 /* User.swift */,
+				CEB4BCA62C88A8ED0007CB9B /* Utils */,
 				CEB4BC972C88A8860007CB9B /* Assets.xcassets */,
+				CE2A04C42C88E12B00101866 /* Fonts */,
 				CEB4BC992C88A8860007CB9B /* Preview Content */,
 			);
 			path = OcoyucanLens;
@@ -65,6 +124,109 @@
 				CEB4BC9A2C88A8860007CB9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEB4BCA12C88A89C0007CB9B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4BCAC2C88A9EB0007CB9B /* Escaneo */,
+				CEB4BCAE2C88AB720007CB9B /* Inicio */,
+				CEB4BCA92C88A9460007CB9B /* Perfil */,
+				CEB4BCAD2C88AAC40007CB9B /* Plantas */,
+				CEB4BCAB2C88A9D80007CB9B /* Recompensas */,
+				CEB4BCA72C88A8FF0007CB9B /* Registro_InicioSesion */,
+				CE06A5142CA50A2300E0F165 /* Root */,
+				CEB4BCAA2C88A9580007CB9B /* Rutas */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CEB4BCA22C88A8A90007CB9B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4BC932C88A8840007CB9B /* OcoyucanLensApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEB4BCA32C88A8CD0007CB9B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEB4BCA52C88A8E10007CB9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CEB4BCA62C88A8ED0007CB9B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CEB4BCA72C88A8FF0007CB9B /* Registro_InicioSesion */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4BCAF2C88AC4E0007CB9B /* Welcome.swift */,
+				CE2A05012C88FFAB00101866 /* SignUp.swift */,
+				CEC2F75D2C89537B007BB040 /* Register.swift */,
+			);
+			path = Registro_InicioSesion;
+			sourceTree = "<group>";
+		};
+		CEB4BCA92C88A9460007CB9B /* Perfil */ = {
+			isa = PBXGroup;
+			children = (
+				CE06A5172CA625BF00E0F165 /* MyProfile.swift */,
+				CE5BD2BE2CAC4C430008EE89 /* SettingsRowView.swift */,
+			);
+			path = Perfil;
+			sourceTree = "<group>";
+		};
+		CEB4BCAA2C88A9580007CB9B /* Rutas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rutas;
+			sourceTree = "<group>";
+		};
+		CEB4BCAB2C88A9D80007CB9B /* Recompensas */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recompensas;
+			sourceTree = "<group>";
+		};
+		CEB4BCAC2C88A9EB0007CB9B /* Escaneo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Escaneo;
+			sourceTree = "<group>";
+		};
+		CEB4BCAD2C88AAC40007CB9B /* Plantas */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2F75F2C8A59CA007BB040 /* PlantsList.swift */,
+				CEC2F7612C8A5CBF007BB040 /* Listas.swift */,
+				CEC2F7692C8A7D98007BB040 /* VerDetalles.swift */,
+				CE5BD2C22CACCEA20008EE89 /* SearchBar.swift */,
+			);
+			path = Plantas;
+			sourceTree = "<group>";
+		};
+		CEB4BCAE2C88AB720007CB9B /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				CE06A5122CA48BAD00E0F165 /* Inicio.swift */,
+			);
+			path = Inicio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC2F7682C8A7434007BB040 /* Breulgroteskb-thin.otf in Resources */,
 				CEB4BC9B2C88A8860007CB9B /* Preview Assets.xcassets in Resources */,
 				CEB4BC982C88A8860007CB9B /* Assets.xcassets in Resources */,
+				CE2A04FF2C88F34D00101866 /* Verbatim-ExtendedThin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +301,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE06A5162CA50BB700E0F165 /* inputView.swift in Sources */,
+				CE06A50E2CA36A4300E0F165 /* Styles.swift in Sources */,
+				CE5BD2C32CACCEA20008EE89 /* SearchBar.swift in Sources */,
+				CE5BD2BF2CAC4C430008EE89 /* SettingsRowView.swift in Sources */,
+				CEC2F7622C8A5CBF007BB040 /* Listas.swift in Sources */,
+				CE5BD2C52CACFF5F0008EE89 /* DropdownOption.swift in Sources */,
 				CEB4BC962C88A8840007CB9B /* ContentView.swift in Sources */,
+				CE2A05022C88FFAB00101866 /* SignUp.swift in Sources */,
+				CE5BD2C12CACC7420008EE89 /* User.swift in Sources */,
+				CEB4BCB02C88AC4E0007CB9B /* Welcome.swift in Sources */,
+				CEC2F7602C8A59CA007BB040 /* PlantsList.swift in Sources */,
+				CE06A5132CA48BAD00E0F165 /* Inicio.swift in Sources */,
 				CEB4BC942C88A8840007CB9B /* OcoyucanLensApp.swift in Sources */,
+				CE06A5182CA625BF00E0F165 /* MyProfile.swift in Sources */,
+				CEC2F75E2C89537B007BB040 /* Register.swift in Sources */,
+				CEC2F76A2C8A7D98007BB040 /* VerDetalles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OcoyucanLens/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OcoyucanLens/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +481,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OcoyucanLens/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OcoyucanLens/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
